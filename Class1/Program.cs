@@ -35,7 +35,10 @@ namespace Class1
             MathOperation obj1= new MathOperation();
             obj1.Sum();
             obj1.sum2(50, 80);
+            int result = obj1.Subtract();
+            Console.WriteLine($"The result of subtraction is: {result}");
 
+            Console.ReadLine();
         }
     }
 }

@@ -12,6 +12,11 @@
             Console.WriteLine("Sorted List Example:");
             SortedList sle = new SortedList();
             sle.SortedListExample();
+
+            // HashSet Example
+            Console.WriteLine(" ");
+            HasSet h1= new HasSet();
+            h1.HashSetExample();
         }
     }
 }

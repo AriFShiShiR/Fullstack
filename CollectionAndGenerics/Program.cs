@@ -1,6 +1,6 @@
 ﻿namespace CollectionAndGenerics
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -17,6 +17,11 @@
             Console.WriteLine(" ");
             HasSet h1= new HasSet();
             h1.HashSetExample();
+
+            // SortedSet Example
+            Console.WriteLine(" ");
+            SortedSet sse = new SortedSet();
+            sse.SortedSetExample();
         }
     }
 }
